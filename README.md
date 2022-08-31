@@ -14,6 +14,6 @@ Acá subo las teóricas, prácticas, laboratorios, exámenes y TPs, y algunos de
 
 ## Laboratorio
 *Los resueltos tienen toda su carpeta para correrlo en CLion.*
-- Clase 0: [Intro a Git y LaTeX](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase0)
+- Clase 0: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase0), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/guia.pdf) y [resolución](https://github.com/matuneville/uba-algo1/blob/main/Labo/Resueltos/Clase0/tallerLatex_tex.pdf)
 - Clase 1: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase1), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo01-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/Clase1)
 - Clase 2: [Teórica](), [consignas]() y [resolución]()
