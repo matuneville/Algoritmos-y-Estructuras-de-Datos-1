@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2/cmake-build-debug"
+			"value" : "c:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2"
+			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2/cmake-build-debug"
+			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02/cmake-build-debug"
 		},
 		{
 			"name" : "labo02_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2"
+			"value" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02"
 		}
 	],
 	"kind" : "cache",

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2
+# Install script for directory: C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/Clase2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
