@@ -2,6 +2,7 @@
 using namespace std;
 
 int notasAlumnos (int nota) {
+
     cout << "Ingrese la nota del alumno: ";
     cin >> nota;
 
@@ -21,6 +22,8 @@ int main() {
     int i = 0 ;
     int notasTotal = 0;
     int nota = 0;
+    int alumnosAprobados = 0;
+    int alumnosDesaprobados = 0;
 
     cout << "Ingrese 13 para finalizar."<< endl;
 
@@ -29,9 +32,22 @@ int main() {
         if (nota == 13)
             stop = nota;
         else {
+            if (nota >= 0 && nota <= 6)
+                alumnosDesaprobados++;
+            if (nota >= 7 && nota <= 10)
+                alumnosAprobados++;
+
             notasTotal += nota;
             i++;
         }
     }
-    cout << "El promedio de notas es: "<< float(notasTotal)/float(i);
+
+    if (i >= 6) {
+        cout << "El promedio de notas es: " << float(notasTotal) / float(i) << endl;
+        cout << "Hay " << alumnosAprobados << " alumnos aprobados" << endl;
+        cout << "Hay " << alumnosDesaprobados << " alumnos desaprobados" << endl;
+    }
+
+    else
+        cout << "La cantidad de alumnos debe ser mayor a 5. Vuelva a intentar.";
 }
