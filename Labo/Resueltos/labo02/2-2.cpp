@@ -32,5 +32,5 @@ int main() {
             i++;
         }
     }
-    cout << "El promedio de notas es: "<< float(notasTotal)/i;
+    cout << "El promedio de notas es: "<< float(notasTotal)/float(i);
 }
