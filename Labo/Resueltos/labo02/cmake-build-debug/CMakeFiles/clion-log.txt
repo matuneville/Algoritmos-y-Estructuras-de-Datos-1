@@ -1,4 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\nevil\Documents\GitHub\uba-algo1\Labo\Resueltos\labo02 -B C:\Users\nevil\Documents\GitHub\uba-algo1\Labo\Resueltos\labo02\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02/cmake-build-debug
+CMakeLists.txt not found in C:\Users\nevil\Documents\GitHub\uba-algo1\Labo\Resueltos\labo02 Select CMakeLists.txt
