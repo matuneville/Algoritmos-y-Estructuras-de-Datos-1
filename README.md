@@ -1,6 +1,6 @@
 # Algoritmos y Estructuras de Datos I
 *2022 - Segundo cuatrimestre  
-Acá subo las teóricas, prácticas, laboratorios, exámenes y TPs, y algunos de sus resueltos.*
+Acá subo las teóricas, prácticas, laboratorios, exámenes y demás.*
 
 ## Teóricas
 - Clase 1: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo01.pdf)
