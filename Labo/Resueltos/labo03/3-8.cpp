@@ -9,7 +9,7 @@ void collatz (int n, int& cantPasos){
     while (n != 1){
         if (n % 2 == 0){
             n /= 2;
-            cout<< n<<endl;
+            cout<< n<< endl;
             cantPasos++;
         }
         else {
