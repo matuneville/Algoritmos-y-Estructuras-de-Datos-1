@@ -14,6 +14,6 @@ Acá subo las teóricas, prácticas, laboratorios, exámenes y TPs, y algunos de
 
 ## Laboratorio
 *Los resueltos en C++ tienen toda su carpeta para correrlo en CLion.*
-- Clase 1: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase1), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo01-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/Clase1)
-- Clase 2: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase2), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo02.pdf) y [resolución](https://github.com/matuneville/uba-algo1/blob/main/Labo/Resueltos/Clase2/tallerLatex_tex.pdf)
+- Clase 1: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase1), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo01-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo01)
+- Clase 2: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase2), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo02-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/blob/main/Labo/Resueltos/labo02/tallerLatex_tex.pdf)
 - Clase 3: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase3/labo03.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo03-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo03)
