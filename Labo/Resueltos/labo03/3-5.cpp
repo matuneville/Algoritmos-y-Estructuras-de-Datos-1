@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double calculoCirculo (double radio, double& diametro, double& circunferencia, double& area){
+void calculoCirculo (double radio, double& diametro, double& circunferencia, double& area){
     double pi = 3.14159;
     diametro = 2 * radio;
     circunferencia = pi * diametro;

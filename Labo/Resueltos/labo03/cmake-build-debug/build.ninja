@@ -205,6 +205,72 @@ build exe05.exe: CXX_EXECUTABLE_LINKER__exe05_Debug CMakeFiles/exe05.dir/3-5.cpp
   TARGET_IMPLIB = libexe05.dll.a
   TARGET_PDB = exe05.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exe06
+
+
+#############################################
+# Order-only phony target for exe06
+
+build cmake_object_order_depends_target_exe06: phony || CMakeFiles/exe06.dir
+
+build CMakeFiles/exe06.dir/3-6.cpp.obj: CXX_COMPILER__exe06_Debug C$:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/3-6.cpp || cmake_object_order_depends_target_exe06
+  DEP_FILE = CMakeFiles\exe06.dir\3-6.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exe06.dir
+  OBJECT_FILE_DIR = CMakeFiles\exe06.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exe06
+
+
+#############################################
+# Link the executable exe06.exe
+
+build exe06.exe: CXX_EXECUTABLE_LINKER__exe06_Debug CMakeFiles/exe06.dir/3-6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exe06.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exe06.exe
+  TARGET_IMPLIB = libexe06.dll.a
+  TARGET_PDB = exe06.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exe07
+
+
+#############################################
+# Order-only phony target for exe07
+
+build cmake_object_order_depends_target_exe07: phony || CMakeFiles/exe07.dir
+
+build CMakeFiles/exe07.dir/3-7.cpp.obj: CXX_COMPILER__exe07_Debug C$:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/3-7.cpp || cmake_object_order_depends_target_exe07
+  DEP_FILE = CMakeFiles\exe07.dir\3-7.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exe07.dir
+  OBJECT_FILE_DIR = CMakeFiles\exe07.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exe07
+
+
+#############################################
+# Link the executable exe07.exe
+
+build exe07.exe: CXX_EXECUTABLE_LINKER__exe07_Debug CMakeFiles/exe07.dir/3-7.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exe07.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exe07.exe
+  TARGET_IMPLIB = libexe07.dll.a
+  TARGET_PDB = exe07.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +307,10 @@ build exe04: phony exe04.exe
 
 build exe05: phony exe05.exe
 
+build exe06: phony exe06.exe
+
+build exe07: phony exe07.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +319,7 @@ build exe05: phony exe05.exe
 #############################################
 # Folder: C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug
 
-build all: phony exe01.exe exe02.exe exe03.exe exe04.exe exe05.exe
+build all: phony exe01.exe exe02.exe exe03.exe exe04.exe exe05.exe exe06.exe exe07.exe
 
 # =============================================================================
 # Built-in targets

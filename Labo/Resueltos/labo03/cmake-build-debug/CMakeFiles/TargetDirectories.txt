@@ -3,5 +3,7 @@ C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debu
 C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/exe03.dir
 C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/exe04.dir
 C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/exe05.dir
+C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/exe06.dir
+C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/exe07.dir
 C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
