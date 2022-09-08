@@ -11,7 +11,7 @@ using namespace std;
  devolver mi variable, es igual a la que oy ingresé
 
 */
-void triplicaPorReferencia (int & n){
+void triplicaPorReferencia (int &n){
     n *= 3;
 }
 
