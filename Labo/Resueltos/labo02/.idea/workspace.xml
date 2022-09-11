@@ -19,7 +19,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0e9242-18a5-4c9a-8f25-0887e7b08bfe" name="Changes" comment="change via clion">
+      <change beforePath="$PROJECT_DIR$/../../Consignas/labo02-ej.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Consignas/labo02-ej.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Consignas/labo03-ej.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tallerLatex_tex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/labo02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-8.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/3-9.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-fd766ea221355c1312b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/exe01.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/exe02.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/exe03.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/exe04.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../labo03/cmake-build-debug/exe05.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/Algo1Macros.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/caratula.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/diaposLatex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/guia.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/latexsheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/logo_dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/Laboratorios 01 - Documentos-20220831/logo_uba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/guia.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/intro_git.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/intro_latex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/latexsheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/template-alumnos/Algo1Macros.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/template-alumnos/caratula.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/template-alumnos/logo_dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/template-alumnos/logo_uba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase2/template-alumnos/solucion.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Teóricas de Labo/Clase3/labo03.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +113,92 @@
     <option name="minorVersion" value="2.1" />
   </component>
   <component name="ProjectId" id="2EGEfNbQbUNVvN71JA0xmp1oLpM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="CMake Application.exe07">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe04">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe06">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe07" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe07" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe07">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe08" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe08" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe08">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exe09" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labo03" TARGET_NAME="exe09" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labo03" RUN_TARGET_NAME="exe09">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.exe01" />
+      <item itemvalue="CMake Application.exe02" />
+      <item itemvalue="CMake Application.exe03" />
+      <item itemvalue="CMake Application.exe04" />
+      <item itemvalue="CMake Application.exe05" />
+      <item itemvalue="CMake Application.exe06" />
+      <item itemvalue="CMake Application.exe07" />
+      <item itemvalue="CMake Application.exe08" />
+      <item itemvalue="CMake Application.exe09" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,8 +211,8 @@
       <workItem from="1662216108033" duration="953000" />
       <workItem from="1662217706867" duration="50000" />
       <workItem from="1662218037665" duration="11094000" />
-      <workItem from="1662668279962" duration="18000" />
-      <workItem from="1662668423066" duration="7000" />
+      <workItem from="1662668453153" duration="4407000" />
+      <workItem from="1662901761578" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="change via clion">
       <created>1662220121091</created>
@@ -134,7 +270,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662232278515</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change via clion">
+      <created>1662668675273</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662668675273</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change via clion">
+      <created>1662669654321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662669654321</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change via clion">
+      <created>1662675697212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662675697212</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change via clion">
+      <created>1662676396058</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662676396058</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
