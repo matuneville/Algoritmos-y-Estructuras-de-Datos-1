@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "labo03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exe01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe01-Debug-aae2ccbd687e3e692665.json",
+					"name" : "exe01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe02-Debug-f12c75d1e26246e8cf2e.json",
+					"name" : "exe02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe03-Debug-941fd8c44d690e32d360.json",
+					"name" : "exe03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe04-Debug-1f665a27e82bd75c17e8.json",
+					"name" : "exe04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe05-Debug-5a63aba1121a46743235.json",
+					"name" : "exe05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe06-Debug-bca17f0ef76d8e34010e.json",
+					"name" : "exe06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe07-Debug-ca9a55ca977f80b6931c.json",
+					"name" : "exe07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe08-Debug-e09eed73fbf224500c59.json",
+					"name" : "exe08",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exe09::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exe09-Debug-ac9105ed30a808e5727e.json",
+					"name" : "exe09",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02/cmake-build-debug",
+		"source" : "C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
