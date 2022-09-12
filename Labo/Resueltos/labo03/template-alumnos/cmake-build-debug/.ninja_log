@@ -1,9 +1,17 @@
 # ninja log v5
-821	6491	6847108029378164	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	e98e69ebb0eb7d06
-4	577	6847108255630213	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	3c06c7df8c78c5ce
-6	1101	6846346218915396	CMakeFiles/template_alumnos.dir/src/generador.cpp.obj	6c3d5d89f2573c73
-578	4138	6847108291192102	../template_alumnos.exe	3fd412c8ecc1067e
-13	529	6847109928746712	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
-9	531	6847109928756688	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
+5	454	6847132617615308	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+10	485	6847132617914442	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
 4	1471	6847109938153106	CMakeFiles/template_alumnos.dir/src/generador.cpp.obj	a8916e4f26348bc7
-1480	1615	6847109939555775	../template_alumnos.exe	3fd412c8ecc1067e
+515	691	6847132619926512	../template_alumnos.exe	3fd412c8ecc1067e
+7	782	6847203735820470	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+15	862	6847203736558955	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
+863	1250	6847203740390651	../template_alumnos.exe	3fd412c8ecc1067e
+9	756	6847203951998916	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+759	971	6847203954123712	../template_alumnos.exe	3fd412c8ecc1067e
+9	795	6847208630070987	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+20	845	6847208630579602	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
+846	1093	6847208633033400	../template_alumnos.exe	3fd412c8ecc1067e
+9	644	6847208775454098	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+645	856	6847208777529490	../template_alumnos.exe	3fd412c8ecc1067e
+13	951	6847208843451841	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+953	1192	6847208845885176	../template_alumnos.exe	3fd412c8ecc1067e

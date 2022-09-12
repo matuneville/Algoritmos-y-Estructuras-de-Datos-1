@@ -1,6 +1,7 @@
 #include <iostream>
+using namespace std;
 
-int fibo(int n){
+int fibonacci(int n){
     int x=0,y=1;
     for (int i = 2; i < n; ++i) {
         int temp = x;
@@ -12,7 +13,7 @@ int fibo(int n){
 
 int main(){
     int n;
-    std::cout << "Ingrese número:" << std::endl;
-    std::cin >> n;
-    std::cout << "Número de fibonacci nro " << n << ": " << fibo(n) << std::endl;
+    cout << "Ingrese número:" << std::endl;
+    cin >> n;
+    cout << "Número de fibonacci nro " << n << ": " << fibonacci(n) << std::endl;
 }

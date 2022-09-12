@@ -17,27 +17,56 @@ bool divide(vector<int> v, int a){
     }
     return true;
 }
-/*
+
 //Ejercicio 2
 int mayor(vector<int> v){
-	// Dado un vector v, devuelve el valor maximo encontrado.
-    int i, j;
-    for (i = 0; i < v.size() - 1; i++){
-        for (j = 1; j < v.size() && v[i] >= v[i+j], j++) {
-            return v[i];
+    // Dado un vector v, devuelve el valor maximo encontrado.
+    int mayor = v.at(0);
+    int i = 0;
+    while (i < v.size()) {
+        if (v.at(i) > mayor) {
+            mayor = v.at(i);
         }
+        i++;
     }
-}
-*/
-//Ejercicio
-vector<int> reverso(vector<int> v){
-	// Dado un vector v, devuelve el reverso.
+    return mayor;
 }
 
-//Ejercicio
+//Ejercicio 3
+vector<int> reverso(vector<int> v){
+	// Dado un vector v, devuelve el reverso.
+    vector <int> reverseV;
+
+    for (int i = v.size()-1 ; i >= 0 ; i--){
+        reverseV.push_back(v.at(i));
+    }
+
+    return reverseV;
+
+}
+
+//Ejercicio 4
 vector<int> rotar(vector<int> v, int k){
 	// Dado un vector v y un entero k, rotar k posiciones los elementos de v.
 	// [1,2,3,4,5,6] rotado 2, deberia dar [3,4,5,6,1,2].
+}
+
+//Ejercicio 5
+bool estaOrdenado(vector<int> v){
+    //Dado un vector v de enteros no repetidos, devuelve verdadero si
+    // el mismo esta ordenado (ya sea creciente o decrecientemente).
+    if (v.at(0) >= v.at(1)){
+        for (int i = 0; i <= v.size()-1 && v.at(i) < v.at(i+1) ; i++){
+            return false;
+        }
+        return true;
+    }
+    else {
+        for (int i = 0; i <= v.size()-1 && v.at(i) > v.at(i+1) ; i++){
+            return false;
+        }
+        return true;
+    }
 }
 
 //Ejercicio

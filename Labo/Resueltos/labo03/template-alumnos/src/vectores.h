@@ -26,6 +26,9 @@ vector<int> rotar(vector<int> v, int k);
 // [1,2,3,4,5,6] rotado 2, deberia dar [3,4,5,6,1,2].
 
 //Ejercicio
+bool estaOrdenado(vector<int> v);
+
+//Ejercicio
 vector<int> factoresPrimos(int n);
 // Dado un entero devuelve un vector con los factores primos del mismo
 
