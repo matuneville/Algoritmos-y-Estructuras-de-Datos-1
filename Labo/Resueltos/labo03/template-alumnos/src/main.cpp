@@ -9,7 +9,7 @@ int main() {
     holaModuloVectores(); // función definida en vectores.cpp
 
     //cout<<reverso({1,3,5,7});
-    cout<< mayor({1,2,5,2,1,3,5,3,1,3,5,3,2,5,1,6,1});
+    cout<< estaOrdenado({4,4,4,0,4,4,4});
 
     return 0;
 }

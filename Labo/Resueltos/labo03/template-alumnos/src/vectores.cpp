@@ -55,15 +55,26 @@ vector<int> rotar(vector<int> v, int k){
 bool estaOrdenado(vector<int> v){
     //Dado un vector v de enteros no repetidos, devuelve verdadero si
     // el mismo esta ordenado (ya sea creciente o decrecientemente).
+    int i = 0;
+
+    if (v.size() == 1 || v.empty())
+        return true;
+
     if (v.at(0) >= v.at(1)){
-        for (int i = 0; i <= v.size()-1 && v.at(i) < v.at(i+1) ; i++){
-            return false;
+        while (i < v.size()-1){
+            if (v.at(i)<v.at(i+1))
+                return false;
+            else
+                i++;
         }
         return true;
     }
-    else {
-        for (int i = 0; i <= v.size()-1 && v.at(i) > v.at(i+1) ; i++){
-            return false;
+    else{
+        while (i < v.size()-1){
+            if (v.at(i)>v.at(i+1))
+                return false;
+            else
+                i++;
         }
         return true;
     }
