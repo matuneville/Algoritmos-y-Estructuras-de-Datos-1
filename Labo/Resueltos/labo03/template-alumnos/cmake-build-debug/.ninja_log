@@ -1,0 +1,9 @@
+# ninja log v5
+821	6491	6847108029378164	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	e98e69ebb0eb7d06
+4	577	6847108255630213	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	3c06c7df8c78c5ce
+6	1101	6846346218915396	CMakeFiles/template_alumnos.dir/src/generador.cpp.obj	6c3d5d89f2573c73
+578	4138	6847108291192102	../template_alumnos.exe	3fd412c8ecc1067e
+13	529	6847109928746712	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+9	531	6847109928756688	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
+4	1471	6847109938153106	CMakeFiles/template_alumnos.dir/src/generador.cpp.obj	a8916e4f26348bc7
+1480	1615	6847109939555775	../template_alumnos.exe	3fd412c8ecc1067e
