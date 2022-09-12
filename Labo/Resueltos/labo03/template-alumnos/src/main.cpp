@@ -9,7 +9,7 @@ int main() {
     holaModuloVectores(); // función definida en vectores.cpp
 
     //cout<<reverso({1,3,5,7});
-    cout<< estaOrdenado({4,4,4,0,4,4,4});
+    cout<< rotar({1,3,5,7,9}, 1);
 
     return 0;
 }
