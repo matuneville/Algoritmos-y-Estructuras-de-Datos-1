@@ -7,12 +7,13 @@ vector<int> rotar(vector<int> v, int k){
     // Dado un vector v y un entero k, rotar k posiciones los elementos de v.
     // [1,2,3,4,5,6] rotado 2, deberia dar [3,4,5,6,1,2].
     vector<int> rotatedV;
-    for (int i = 0; i <= k; i++){
+    for (int i = k; i < v.size(); i++){
         rotatedV.push_back(v.at(i));
     }
-    for (int j = v.size()-1; j > k; j--){
-        rotatedV.push_back(v.at(j));
+    for (int i = 0; i < k; i++){
+        rotatedV.push_back(v.at(i));
     }
+
     return rotatedV;
 }
 
