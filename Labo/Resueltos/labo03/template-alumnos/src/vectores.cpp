@@ -50,12 +50,13 @@ vector<int> rotar(vector<int> v, int k){
 	// Dado un vector v y un entero k, rotar k posiciones los elementos de v.
 	// [1,2,3,4,5,6] rotado 2, deberia dar [3,4,5,6,1,2].
     vector<int> rotatedV;
-    for (int i = 0; i <= k; i++){
+    for (int i = k; i < v.size(); i++){
         rotatedV.push_back(v.at(i));
     }
-    for (int j = v.size()-1; j > k; j--){
-        rotatedV.push_back(v.at(j))
+    for (int i = 0; i < k; i++){
+        rotatedV.push_back(v.at(i));
     }
+
     return rotatedV;
 }
 
@@ -88,13 +89,25 @@ bool estaOrdenado(vector<int> v){
     }
 }
 
-//Ejercicio
+//Ejercicio 6
 vector<int> factoresPrimos(int n){
 	//que dado un entero devuelve un vector con los factores primos del mismo
+    vector<int> primeFactors;
+    for (int i = 2; i < n; i++){
+        if (n % i == 0){
+            primeFactors.push_back(i);
+        }
+    }
+    return primeFactors;
 }
 
-//Ejercicio
+//Ejercicio 7
 void mostrarVector(vector<int> v){
 	//que dado un vector de enteros muestra por la salida estándar, el vector
 	// Ejemplo: si el vector es <1, 2, 5, 65> se debe mostrar en pantalla [1, 2, 5, 65]
+    cout<<"["<<v.at(0);
+    for (int i = 1; i < v.size(); i++){
+        cout<< ", "<< v.at(i);
+    }
+    cout<<"]";
 }
