@@ -38,5 +38,12 @@ void mostrarVector(vector<int> v);
 // Ejemplo: si el vector es <1, 2, 5, 65> se debe mostrar en pantalla [1, 2, 5, 65]
 
 // Y aca van todos los otros headers de los ejercicios del laboratorio
+vector<int> leerVector(string fileName);
+
+void guardarVector(vector<int> vec, string nombreArchivo);
+
+int elementoMedio(vector<int>v);
+int sumaAnteriores(vector<int>v, int i);
+int sumaPosteriores(vector<int>v, int i);
 
 #endif

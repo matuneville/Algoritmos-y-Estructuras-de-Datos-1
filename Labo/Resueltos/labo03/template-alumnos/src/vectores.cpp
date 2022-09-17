@@ -1,4 +1,6 @@
 #include "vectores.h"
+#include <fstream>
+
 
 // Función para probar en main.cpp si este módulo fue cargado correctamente
 void holaModuloVectores(){
@@ -89,7 +91,7 @@ bool estaOrdenado(vector<int> v){
     }
 }
 
-//Ejercicio 6
+//Ejercicio 6                           CORREGIR !!!!
 vector<int> factoresPrimos(int n){
 	//que dado un entero devuelve un vector con los factores primos del mismo
     vector<int> primeFactors;
@@ -111,3 +113,56 @@ void mostrarVector(vector<int> v){
     }
     cout<<"]";
 }
+
+//Ejercicio 8
+
+vector<int> leerVector(string fileName){
+    vector<int> vec1;
+    int a;
+    ifstream leerArchivo; //variable con la que voy a operar para leer readFile(ej8).txt
+    leerArchivo.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/" + fileName, ios::in); //abro readFile(ej8).txt
+
+    while (not leerArchivo.eof()){ //.eof devuelve TRUE si no hay mas elementos, por eso uso while not
+        leerArchivo >> a; //toma cada entero hasta que haya un espacio
+        vec1.push_back(a);
+    }
+    leerArchivo.close();
+    return vec1;
+}
+
+//Ejercicio 9
+void guardarVector(vector<int> vec, string nombreArchivo){
+    ofstream saveVector;
+    saveVector.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/" + nombreArchivo);
+    for (int i = 0; i < vec.size(); i++) {
+        saveVector << vec.at(i)<< " ";
+    }
+
+    saveVector.close();
+    cout<< "Archivo guardado correctamente";
+}
+
+//Ejercicio 10
+int elementoMedio(vector<int>v){
+    for (int i = 0; i < v.size(); i++){
+        if (sumaAnteriores(v, i) > sumaPosteriores(v, i))
+            return v.at(i);
+    }
+}
+
+int sumaAnteriores(vector<int>v, int i){
+    int n = 0;
+    for (int j = 0; j <= i; j++){
+        n += v.at(j);
+    }
+    return n;
+}
+int sumaPosteriores(vector<int>v, int i){
+    int n = 0;
+    for (int j = v.size()-1; j > i; j--){
+        n += v.at(j);
+    }
+    return n;
+}
+
+//Ejercicio 11
