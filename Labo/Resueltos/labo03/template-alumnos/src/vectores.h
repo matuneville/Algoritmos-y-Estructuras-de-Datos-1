@@ -31,6 +31,7 @@ bool estaOrdenado(vector<int> v);
 //Ejercicio
 vector<int> factoresPrimos(int n);
 // Dado un entero devuelve un vector con los factores primos del mismo
+bool esPrimo (int n);
 
 //Ejercicio
 void mostrarVector(vector<int> v);

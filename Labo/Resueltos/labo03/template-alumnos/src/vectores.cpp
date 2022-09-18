@@ -91,16 +91,25 @@ bool estaOrdenado(vector<int> v){
     }
 }
 
-//Ejercicio 6                           CORREGIR !!!!
+//Ejercicio 6
 vector<int> factoresPrimos(int n){
 	//que dado un entero devuelve un vector con los factores primos del mismo
     vector<int> primeFactors;
     for (int i = 2; i < n; i++){
-        if (n % i == 0){
+        if (esPrimo(i) && n % i == 0){
             primeFactors.push_back(i);
         }
     }
     return primeFactors;
+}
+
+bool esPrimo (int n){
+    for (int i = 2; i < n; i++){
+        if (n % i == 0){
+            return false;
+        }
+    }
+    return true;
 }
 
 //Ejercicio 7
