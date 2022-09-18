@@ -46,4 +46,16 @@ int elementoMedio(vector<int>v);
 int sumaAnteriores(vector<int>v, int i);
 int sumaPosteriores(vector<int>v, int i);
 
+void cantApariciones(string nombreArchivo);
+bool yaLeido (int n, vector<int> numerosContados);
+
+int cantidadAparicionesDePalabra(string nombreArchivo, string palabra);
+
+void promedio(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut);
+void guardarVectorDouble(vector<float> vec, string nombreArchivo);
+
+void ordenarSecuencias(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut);
+
+vector<int> interseccion();
+
 #endif

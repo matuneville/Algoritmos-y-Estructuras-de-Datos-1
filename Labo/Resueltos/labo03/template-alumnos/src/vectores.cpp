@@ -133,7 +133,7 @@ vector<int> leerVector(string fileName){
 //Ejercicio 9
 void guardarVector(vector<int> vec, string nombreArchivo){
     ofstream saveVector;
-    saveVector.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/" + nombreArchivo);
+    saveVector.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/out/" + nombreArchivo);
     for (int i = 0; i < vec.size(); i++) {
         saveVector << vec.at(i)<< " ";
     }
@@ -166,3 +166,128 @@ int sumaPosteriores(vector<int>v, int i){
 }
 
 //Ejercicio 11
+void cantApariciones(string nombreArchivo){
+    vector<int> vec1 = leerVector(nombreArchivo + ".in");
+
+    vector<int> numerosContados;
+
+    ofstream archivoOut;
+    archivoOut.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/out/" + nombreArchivo + ".txt");
+    int i = 0;
+    while (i < vec1.size()){
+        if (not yaLeido(vec1.at(i), numerosContados)){
+            int contador = 0;
+            int j = 0;
+            while (j < vec1.size()){
+                if (vec1.at(i) == vec1.at(j)){
+                    contador++;
+                }
+                j++;
+            }
+            archivoOut<< vec1.at(i)<< " "<< contador<< endl;
+            numerosContados.push_back(vec1.at(i));
+        }
+        i++;
+    }
+    archivoOut.close();
+}
+
+bool yaLeido (int n, vector<int> numerosContados){
+    int i = 0;
+    while (i < numerosContados.size()){
+        if (n == numerosContados.at(i))
+            return true;
+        i++;
+    }
+    return false;
+}
+
+//Ejercicio 12
+int cantidadAparicionesDePalabra(string nombreArchivo, string palabra){
+    ifstream archivoIn;
+    archivoIn.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/" + nombreArchivo + ".in", ios::in);
+    int contador = 0;
+    string x;
+    vector<string> vecx;
+    while (not archivoIn.eof()){
+        archivoIn >> x;
+        vecx.push_back(x);
+    }
+    for (int i = 0; i < vecx.size(); i++){
+        if (vecx.at(i) == palabra)
+            contador++;
+    }
+
+    archivoIn.close();
+    return contador;
+}
+
+//Ejercicio 13
+void promedio(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut){
+    vector<int> vec1 = leerVector(nombreArchivoIn1 + ".in");
+    vector<int> vec2 = leerVector(nombreArchivoIn2 + ".in");
+    vector<float> vecAverage;
+
+    for (int i = 0; i < vec1.size(); i++){
+        float promedio = (vec1.at(i) + vec2.at(i)) * 0.5;
+        vecAverage.push_back(promedio);
+    }
+    guardarVectorDouble(vecAverage, nombreArchivoOut);
+}
+
+void guardarVectorDouble(vector<float> vec, string nombreArchivo){
+    ofstream saveVector;
+    saveVector.open("C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo03/template-alumnos/archivos/out/" + nombreArchivo);
+    for (int i = 0; i < vec.size(); i++) {
+        saveVector << vec.at(i)<< " ";
+    }
+
+    saveVector.close();
+    cout<< "Archivo guardado correctamente";
+}
+
+//Ejercicio 14              CORREGIR !!!!
+void ordenarSecuencias(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut){
+    // Falta corregir que esta hecho para dos secuencias de mismo largo, y no añade el ultimo elemento :(
+    vector<int> vec1 = leerVector(nombreArchivoIn1 + ".in");
+    vector<int> vec2 = leerVector(nombreArchivoIn2 + ".in");
+    vector<int> vecOrdenado;
+
+    int i = 0, j = 0;
+    while (i < vec1.size() && j < vec2.size()){
+        if (vec1.at(i) <= vec2.at(j)){
+            vecOrdenado.push_back(vec1.at(i));
+            i++;
+        }
+        else{
+            vecOrdenado.push_back(vec2.at(j));
+            j++;
+        }
+    }
+    guardarVector(vecOrdenado, nombreArchivoOut);
+}
+
+//Ejercicio 15
+vector<int> interseccion(){
+    string archivo1, archivo2;
+    cout<< "Ingrese el nombre de dos archivos con su extension:"<<endl;
+    cin>> archivo1;
+    cin>> archivo2;
+    vector<int> vec1, vec2, vec3;
+    vec1 = leerVector(archivo1);
+    vec2 = leerVector(archivo2);
+    int i = 0, j;
+    while (i < vec1.size()){
+        j = 0;
+        while (j < vec2.size()) {
+            if (vec1.at(i) == vec2.at(j)) {
+                vec3.push_back(vec1.at(i));
+                j++;
+            }
+            else
+                j++;
+        }
+        i++;
+    }
+    return vec3;
+}
