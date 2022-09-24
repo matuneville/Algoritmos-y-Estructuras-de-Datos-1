@@ -6,6 +6,6 @@ using namespace std;
 int main() {
     holaModuloVectores(); // función definida en vectores.cpp
     // Aca corro cada funcion para probar si anda piola
-    mostrarVector(factoresPrimos(125));
+    cantApariciones("1000NumerosEntre1y50");
     return 0;
 }

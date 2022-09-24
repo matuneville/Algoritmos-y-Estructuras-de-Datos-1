@@ -84,3 +84,6 @@
 469	663	6852458519999998	../template_alumnos.exe	3fd412c8ecc1067e
 6	411	6852458597687322	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
 411	589	6852458599436360	../template_alumnos.exe	3fd412c8ecc1067e
+407	3121	6855922861376811	CMakeFiles/template_alumnos.dir/src/main.cpp.obj	1dd4d1a4247b8513
+504	3424	6855922864491257	CMakeFiles/template_alumnos.dir/src/vectores.cpp.obj	95af9dfba68df0ba
+3424	5428	6855922884456209	../template_alumnos.exe	3fd412c8ecc1067e
