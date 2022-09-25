@@ -10,7 +10,7 @@ using namespace std;
 bool estaOrdenadoAsc(vector<int> v){
   int i=0;
   int longitud = v.size();
-  bool esMenor;
+  bool esMenor = true;
   while(i<=longitud-2 && esMenor){
     esMenor = v[i]<=v[i+1];
     i++;
@@ -21,7 +21,7 @@ bool estaOrdenadoAsc(vector<int> v){
 bool estaOrdenadoDesc(vector<int> v){
   int longitud = v.size();
   int i=0;
-  bool esMayor;
+  bool esMayor = true;
   while(i<=longitud-2 && esMayor){
     esMayor = v[i]>=v[i+1];
     i++;
@@ -46,10 +46,11 @@ bool esPrimo(int numero){
   if(numero>2) {
     int i=2;
     bool divide = false;
-    while(i<=numero && !divide)
-      divide = numero%i != 0;
-      i++;
-    return i==numero;
+    while(i<numero && !divide) {
+        divide = numero % i == 0;
+        i++;
+    }
+      return i == numero;
   }
   else if(numero==2)
     return true;
@@ -71,7 +72,7 @@ bool pertenece(int elemento, vector<int> v){
     sigo = v[i]!=elemento;
     i++;
   }
-   return i<longitud;
+   return i<longitud || !sigo;
   }
 }
 
@@ -103,16 +104,16 @@ float desvioEstandar(vector<float> v){
 
 // Calcular el k-esimo numero de fibonacci
 long fibonacci(int k){
-  if(k=0)
+  if(k == 0)
     return 0;
-  else if(k=1)
+  else if(k == 1)
     return 1;
   else{
     long i=0;
     long j=1;
     long m;
     int nesimo;
-    for(nesimo==1; nesimo<=k; nesimo++){
+    for(nesimo=1; nesimo<=k; nesimo++){
       m = j;
       j = i+j;
       i = m;
@@ -150,10 +151,10 @@ int maximoComunDivisor(int x, int y){
   int a = maximo(x,y);
   int b = minimo(x,y);
   int resto;
-  while((b!=0) || (b!=1)){
+  while(b!=0){
     resto = a%b;
-    b = a;
-    a = resto;
+    a = b;
+    b = resto;
   }
   if(a==0)
     return a;
@@ -169,7 +170,6 @@ int sumaDoble(vector<int> v){
   for(unsigned int i=0; i<v.size(); i++){
     if(v[i]%2==0 && v[i]>=0) 
       suma =+ v[i]*2;
-    i++;
   }
   return suma;
 }
@@ -184,7 +184,7 @@ int cantPalabras(string filename) {
 
   miArchivo.open(filename.c_str(), ifstream::in);
   if(miArchivo.is_open()) {
-    while(miArchivo.eof()) {
+    while(!miArchivo.eof()) {
       miArchivo >> palabra;
       cont++;
     }
@@ -219,6 +219,7 @@ float valorMedio() {
   return acum/cont;
 }
 
+/************* Ejercicio 10 *************/
 // Devolver en res la fraccion (entre 0 y 1) de numeros mayores a 0.
 void fraccion(vector<int> v, float res){
   int count = 0;
