@@ -80,25 +80,30 @@ bool pertenece(int elemento, vector<int> v){
 
 // Encontrar el desvio estandar de un vector de floats.
 float promedio(vector<float> v){
-  int longitud = v.size();
-  int suma=0;
-  for(int i=0; i<=longitud-1; i++)
-    suma+=v[i];
-  return suma/longitud;
+    int longitud = v.size();
+    float suma=0;
+    for(int i=0; i<=longitud-1; i++)
+        suma+=v[i];
+    return suma/ float(longitud);
 }
 
+
 float sumaDeCuadrados(vector<float> v){
-  float sumadecuadrados=0;
-  unsigned int i;
-  for(i=0; i<=v.size()-1; i++);
-    sumadecuadrados+=pow((v[i]-promedio(v)),2);
-  return sumadecuadrados;
+    float sumadecuadrados = 0;
+    for (int i = 0; i <= v.size() - 1; i++) {
+        sumadecuadrados += powf((v[i] - promedio(v)), 2);
+    }
+    return sumadecuadrados;
 }
 
 float desvioEstandar(vector<float> v){
-  return sqrt(sumaDeCuadrados(v)/v.size());
+    if (v.size() == 0){
+        return 0;
+    }
+    else {
+        return sqrt(sumaDeCuadrados(v)/v.size());
+    }
 }
-
 
 /************* Ejercicio 5 *************/
 
@@ -210,8 +215,10 @@ float valorMedio() {
   if(miArchivo.is_open()) {
     while(!miArchivo.eof()) {
       miArchivo >> val;
-      acum += val;
-      cont++;
+      if (val > 0 && val < 1) { // faltaba fijarse solo en los valores entre 0 y 1 porque hay un numero que es gigante
+          acum += val;
+          cont++;
+      }
     }
   }
   miArchivo.close();
@@ -222,11 +229,16 @@ float valorMedio() {
 /************* Ejercicio 10 *************/
 // Devolver en res la fraccion (entre 0 y 1) de numeros mayores a 0.
 void fraccion(vector<int> v, float res){
-  int count = 0;
-  for(int i = 0; i < v.size(); i++){
-    if(v[i] > 0){
-      count++;
-    }
+  float count = 0;
+  if (v.empty()) {
+      res = 0;
   }
-  res = count / v.size();
+  else {
+      for (int i = 0; i < v.size(); i++) {
+          if (v[i] > 0) {
+              count++;
+          }
+      }
+      res = count / v.size();
+  }
 }
