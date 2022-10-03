@@ -9,6 +9,7 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Labo 2: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase2/labo02.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo02-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo02)
 - Labo 3: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Teóricas%20de%20Labo/Clase3), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo03-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo03/template-alumnos/src)
 - Labo 4: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase4/Debugging.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo04-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo04/template-alumnos)
+- Labo 5: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase5/Taller-ciclos.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo05-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo05/template-alumnos)
 
 ## Entregas
 - Entrega 1: [Ejercicios](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1)
@@ -18,9 +19,11 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Guía 2: [Intro a especificación](https://github.com/matuneville/uba-algo1/blob/main/Practicas/gu%C3%ADa2.pdf)
 - Guía 3: [Especificación](https://github.com/matuneville/uba-algo1/blob/main/Practicas/gu%C3%ADa3.pdf)
 - Guía 4: [Weakest Precondition](https://github.com/matuneville/uba-algo1/blob/main/Practicas/gu%C3%ADa4.pdf)
+- Guía 5: [Demostración de Corrección de Ciclos](https://github.com/matuneville/uba-algo1/blob/main/Practicas/gu%C3%ADa5.pdf)
 
 ## Teóricas
 - Clase 1: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo01.pdf)
 - Clase 2: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo02.pdf)
 - Clase 3: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo03.pdf)
 - Clase 4: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo04.pdf)
+- Clase 5: [Diapositivas](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo05.pdf)
