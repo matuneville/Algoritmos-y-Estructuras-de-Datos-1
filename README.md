@@ -10,7 +10,7 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Vectores: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Teóricas%20de%20Labo/Clase3), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo03-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo03/template-alumnos/src)
 - Debugging: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase4/Debugging.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo04-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo04/template-alumnos)
 - Invariantes: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase5/Taller-ciclos.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo05-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo05/template-alumnos)
-- Testing:
+- Testing: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase6), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo06-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo06/template-alumnos)
 
 ## Entregas
 - Entrega 1: [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1)
