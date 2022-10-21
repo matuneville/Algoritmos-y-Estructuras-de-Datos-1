@@ -12,7 +12,12 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Invariantes: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase5/Taller-ciclos.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo05-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo05/template-alumnos)
 - Testing: [Teórica](https://github.com/matuneville/uba-algo1/tree/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase6), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo06-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo06/template-alumnos)
 
-## Entregas
+## Trabajos Prácticos: Buscaminas
+*Linkeo los directorios del repo de los TPs*
+- Trabajo Práctico de Especificación: [Consignas]() y [resolución]()
+- Trabajo Práctico de Implementación en C++: [Consignas]() y [resolución]()
+
+## Entregas de Labo
 - Entrega 1: [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1)
 - Entrega 2: [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega2)
 
