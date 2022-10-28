@@ -1,1 +1,1 @@
-int contandoDragones(int T, int d1, int d2, int d3);
+int contandoDragones(int T, int x, int y, int z);

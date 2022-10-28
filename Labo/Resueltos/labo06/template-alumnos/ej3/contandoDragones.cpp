@@ -1,4 +1,16 @@
-int contandoDragones(int T, int d1, int d2, int d3) {
-	return 0;
-	// Borrar el return dummy y completar
+
+int contandoDragones(int T, int x, int y, int z) {
+
+    int dragonesAfectados = 0;
+
+    for (int i = 1; i <= T; i++){
+
+        if (i % x == 0 ||
+            i % y == 0 ||
+            i % z == 0) {
+            dragonesAfectados++;
+        }
+    }
+
+    return dragonesAfectados;
 }

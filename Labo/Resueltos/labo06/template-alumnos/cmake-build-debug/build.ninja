@@ -126,6 +126,20 @@ build CMakeFiles/LaboTesting.dir/ej3/Test/electoresTEST.cpp.obj: CXX_COMPILER__L
   OBJECT_DIR = CMakeFiles\LaboTesting.dir
   OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej3\Test
 
+build CMakeFiles/LaboTesting.dir/ej3/contandoDragones.cpp.obj: CXX_COMPILER__LaboTesting_Debug C$:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo06/template-alumnos/ej3/contandoDragones.cpp || cmake_object_order_depends_target_LaboTesting
+  DEP_FILE = CMakeFiles\LaboTesting.dir\ej3\contandoDragones.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo06/template-alumnos/lib/googletest-master/googletest/include
+  OBJECT_DIR = CMakeFiles\LaboTesting.dir
+  OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej3
+
+build CMakeFiles/LaboTesting.dir/ej3/Test/contandoDragonesTEST.cpp.obj: CXX_COMPILER__LaboTesting_Debug C$:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo06/template-alumnos/ej3/Test/contandoDragonesTEST.cpp || cmake_object_order_depends_target_LaboTesting
+  DEP_FILE = CMakeFiles\LaboTesting.dir\ej3\Test\contandoDragonesTEST.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/nevil/Documents/GitHub/uba-algo1/Labo/Resueltos/labo06/template-alumnos/lib/googletest-master/googletest/include
+  OBJECT_DIR = CMakeFiles\LaboTesting.dir
+  OBJECT_FILE_DIR = CMakeFiles\LaboTesting.dir\ej3\Test
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LaboTesting
@@ -134,7 +148,7 @@ build CMakeFiles/LaboTesting.dir/ej3/Test/electoresTEST.cpp.obj: CXX_COMPILER__L
 #############################################
 # Link the executable LaboTesting.exe
 
-build LaboTesting.exe: CXX_EXECUTABLE_LINKER__LaboTesting_Debug CMakeFiles/LaboTesting.dir/main.cpp.obj CMakeFiles/LaboTesting.dir/ej1/esPrimo.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj CMakeFiles/LaboTesting.dir/ej1/puntaje.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/puntajeTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej2/llenarTaxis.cpp.obj CMakeFiles/LaboTesting.dir/ej2/Test/llenarTaxisTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej3/baldosasDelPiso.cpp.obj CMakeFiles/LaboTesting.dir/ej3/Test/baldosasDelPisoTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej3/electores.cpp.obj CMakeFiles/LaboTesting.dir/ej3/Test/electoresTEST.cpp.obj | lib/googletest-master/googlemock/gtest/libgtestd.a lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a || lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a
+build LaboTesting.exe: CXX_EXECUTABLE_LINKER__LaboTesting_Debug CMakeFiles/LaboTesting.dir/main.cpp.obj CMakeFiles/LaboTesting.dir/ej1/esPrimo.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/esPrimoTest.cpp.obj CMakeFiles/LaboTesting.dir/ej1/puntaje.cpp.obj CMakeFiles/LaboTesting.dir/ej1/Test/puntajeTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej2/llenarTaxis.cpp.obj CMakeFiles/LaboTesting.dir/ej2/Test/llenarTaxisTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej3/baldosasDelPiso.cpp.obj CMakeFiles/LaboTesting.dir/ej3/Test/baldosasDelPisoTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej3/electores.cpp.obj CMakeFiles/LaboTesting.dir/ej3/Test/electoresTEST.cpp.obj CMakeFiles/LaboTesting.dir/ej3/contandoDragones.cpp.obj CMakeFiles/LaboTesting.dir/ej3/Test/contandoDragonesTEST.cpp.obj | lib/googletest-master/googlemock/gtest/libgtestd.a lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a || lib/googletest-master/googlemock/gtest/libgtest_maind.a lib/googletest-master/googlemock/gtest/libgtestd.a
   FLAGS = -g
   LINK_LIBRARIES = lib/googletest-master/googlemock/gtest/libgtestd.a  lib/googletest-master/googlemock/gtest/libgtest_maind.a  lib/googletest-master/googlemock/gtest/libgtestd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LaboTesting.dir
