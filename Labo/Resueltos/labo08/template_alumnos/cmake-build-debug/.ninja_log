@@ -1,0 +1,25 @@
+# ninja log v5
+6	636	6889562932843481	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+14077	15476	6887821387503145	lib/googletest-master/googlemock/gtest/libgtestd.a	c864cd0157aa151e
+2	3248	6887821265228278	CMakeFiles/strings.dir/main.cpp.obj	f182efa68ad98d9b
+17	718	6887821239927712	CMakeFiles/strings.dir/src/risas.cpp.obj	48bf4c7fdccbab8e
+12	3920	6887821271938932	CMakeFiles/strings.dir/tests/risasTEST.cpp.obj	5964e11fab846bf7
+633	3590	6887821268646996	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	4352d891b4a0d04
+28	14073	6887821373400427	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	3069df83b42b7c84
+23	4546	6887821278176330	CMakeFiles/strings.dir/tests/tests.cpp.obj	8beb27cab7cf76d2
+15477	15546	6887821388218739	lib/googletest-master/googlemock/gtest/libgtest_maind.a	69da526b7b13261a
+636	3344	6889562959877297	../strings.exe	900b1768302cfe4
+7	682	6889563450102351	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+683	3877	6889563481908253	../strings.exe	900b1768302cfe4
+6	624	6889563829897035	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+625	3081	6889563854409401	../strings.exe	900b1768302cfe4
+6	611	6889565892796423	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+612	3026	6889565916863563	../strings.exe	900b1768302cfe4
+5	587	6889576474523117	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+588	2948	6889576498051889	../strings.exe	900b1768302cfe4
+7	576	6889577497517996	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+577	3043	6889577522112834	../strings.exe	900b1768302cfe4
+6	708	6889582140623803	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+709	3142	6889582165521844	../strings.exe	900b1768302cfe4
+7	1004	6889615480903287	CMakeFiles/strings.dir/src/ejercicios.cpp.obj	2069648ebb0be319
+1005	4159	6889615512384472	../strings.exe	900b1768302cfe4
