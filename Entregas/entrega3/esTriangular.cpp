@@ -3,6 +3,10 @@
 
 using namespace std;
 
+void trasponer(vector<vector<int> > &m);
+bool esTriangularInferior(vector<vector<int>> m);
+bool esTriangularSuperior(vector<vector<int>> m);
+
 bool esTriangular(vector<vector<int> > m){
 	if (esTriangularInferior(m) || esTriangularSuperior(m))
         return true;
@@ -22,6 +26,18 @@ bool esTriangularInferior(vector<vector<int>> m){
 bool esTriangularSuperior(vector<vector<int>> m){
     trasponer(m);
     return esTriangularInferior(m);
+}
+
+void trasponer(vector<vector<int> > &m) {
+    vector<vector<int>> mTraspuesta;
+    for(int i = 0; i < m[0].size(); i++){
+        vector<int> v;
+        for (int j = 0; j < m.size(); ++j) {
+            v.push_back(m[j][i]);
+        }
+        mTraspuesta.push_back(v);
+    }
+    m = mTraspuesta;
 }
 
 int main()
