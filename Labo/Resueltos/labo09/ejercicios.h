@@ -20,3 +20,7 @@ bool busqueda_binaria(vector<int> &s, int x);
 
 
 void guardarTiempo(string nombreArchivo, int n, double tiempo);
+bool tieneElementoEnPrimerosCinco(vector<int>& v, int n);
+void multiplicoTodosPorN(vector<int>& v, int n);
+void sumoN(vector<vector<int>>& v, int n);
+void binariaNVeces(vector<int> &v, int x);
