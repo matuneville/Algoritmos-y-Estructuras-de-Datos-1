@@ -127,5 +127,42 @@ void guardarTiempo(string nombreArchivo, int n, double tiempo){
 
     saveTime.close();
     cout<< "Archivo guardado correctamente";
+} //al final ni la use pero la tengo como referencia para guardar archivos
+
+// Complexity O(1)
+bool tieneElementoEnPrimerosCinco(vector<int>& v, int n){
+    bool res = false;
+    for (int i = 0; i < 5; ++i) {   // el ciclo tiene complejidad O(1)
+        if (v[i] == n)              // pues siempre se ejecuta la misma cantidad de veces
+            res = true;
+    }
+    return res;
 }
 
+// Complexity O(n)
+void multiplicoTodosPorN(vector<int>& v, int n){
+    for (int i = 0; i < v.size(); ++i) {    // se ejecuta n veces siendo n el largo de v
+        v[i] *= n;
+    }
+}
+
+// Complexity O(n^3)                            // primero meto un for innecesario y despues
+void sumoN(vector<vector<int>>& v, int n){  //recorre n veces dentro de n veces (si es matriz cuadrada)
+    for (int m = 0; m < v.size(); ++m) {
+        for (int i = 0; i < v.size(); ++i) {
+            for (int j = 0; j < v[i].size(); ++j) {
+                v[i][j] += n;
+            }
+        }
+    }
+}
+
+// Complexity O(n.log(n))
+// no tengo creatividad para este asi que simplemente hago
+// un ciclo sin ningun fin y ejectuto la busqueda binaria
+// las n veces ya que tiene complejidad O(log n)
+void binariaNVeces(vector<int> &v, int x){
+    for (int i = 0; i < v.size(); ++i) {
+        busqueda_binaria(v, x);
+    }
+}
