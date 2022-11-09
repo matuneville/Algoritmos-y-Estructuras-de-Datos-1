@@ -7,17 +7,90 @@
 using namespace std;
 
 void insertionSort(vector< int > &arr){
-	//Rellenar insertion
+    for(int j = 1; j < arr.size(); j++){
+        int min = arr[j];
+        int i = j-1;
 
+        while(i >= 0 && arr[i] > min){
+            arr[i+1] = arr[i];
+            i--;
+        }
+        arr[i+1] = min;
+    }
+}
+
+
+void insertionSortDescendente(vector< int > &arr){
+    for(int j = arr.size() - 2; j > 0; j--){
+        int min = arr[j];
+        int i = j+1;
+
+        while(i < arr.size() && arr[i] > min){
+            arr[i-1] = arr[i];
+            i++;
+        }
+        arr[i-1] = min;
+    }
 }
 
 void selectionSort(vector< int > &arr){
-	//Rellenar selection
+    for (int i = 0; i < arr.size(); ++i) {
+        int posmin = i;
+        for (int j = i+1; j < arr.size(); ++j) {
+            if (arr[j] < arr[posmin])
+                posmin = j;
+        }
+        int temp = arr[i];
+        arr[i] = arr[posmin];
+        arr[posmin] = temp;
+
+    }
+}
+
+void selectionSortDescendente(vector< int > &arr){
+    for (int i = arr.size() - 1; i >= 0; --i) {
+        int posmin = i;
+        for (int j = i-1; j >= 0; --j) {
+            if (arr[j] < arr[posmin])
+                if (arr[j] < arr[posmin])
+                    posmin = j;
+        }
+        int temp = arr[i];
+        arr[i] = arr[posmin];
+        arr[posmin] = temp;
+    }
 }
 
 
+
 void ordenar(vector<int> &items){
-	//Poner aca una implementación de ordenar
+
+    vector<int> v = {3,5,1,3,8,0,12};
+    insertionSort(v);
+    for(int i = 0; i < v.size() / 2; i++){
+        int temp = v[i];
+        v[i] = v[v.size()-1-i];
+        v[v.size()-1-i] = temp;
+
+    }
+
+
+    double t0 = clock();
+    insertionSort(items);
+    double t1 = clock();
+    double timeSelection = (t1 - t0) / CLOCKS_PER_SEC;
+
+/*
+    t0 = clock();
+    selectionSort(items);
+    t1 = clock();
+    double timeInsertion = (t1 - t0) / CLOCKS_PER_SEC;
+*/
+
+    cout<< "timeSelection: "<< timeSelection<< endl;
+/*
+    cout<< "timeInsertion: "<< timeInsertion<< endl;
+*/
 }
 
 
@@ -41,6 +114,7 @@ int bestFit(int W, vector<int> &items){
 }
 
 int main(){
+
 	int N, W, aux;
 
 	//Se levantan los items y la capacidad del contenedor

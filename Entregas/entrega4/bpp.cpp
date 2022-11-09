@@ -7,16 +7,23 @@
 using namespace std;
 
 void ordenar(vector<int> &items){
-    // Poner aca una implementación de ordenar
-    
-    // Atencion: no todas las implementaciones son
-    // suficientemente rápidas para resolver en el
-    // tiempo máximo permitido de la prueba automatizada.
-    // Elegir entre las implementaciones vistas en
-    // clase.
-    //
-    // Observación:
-    // No vale usar std::sort()
+    for(int j = 1; j < items.size(); j++){
+        int min = items[j];
+        int i = j-1;
+
+        while(i >= 0 && items[i] > min){
+            items[i+1] = items[i];
+            i--;
+        }
+        items[i+1] = min;
+    }
+
+    for(int i = 0; i < items.size() / 2; i++){
+        int temp = items[i];
+        items[i] = items[items.size()-1-i];
+        items[items.size()-1-i] = temp;
+    }
+
 }
 
 
