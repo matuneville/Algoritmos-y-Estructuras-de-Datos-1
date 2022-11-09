@@ -159,7 +159,73 @@ int menorMasGrande(vector<int> v, int x){
     }
     return -1;
 }
+/*
+int menorMasGrande(vector<int> v, int x){
+    for (int i = 0; i < v.size() ; ++i) {
+        if (v[i] >= x) return i;
+    }
+    return -1;
+}*/
 
-vector<int> masCercanoK(vector<int> v, int k,  int x){  // este tampoco se entiende
-	return {};
+// ************** auxiliares ********************************
+int diferenciaAbsoluta (int a, int b){
+    if (a > b) return a-b;
+    else return b-a;
+}
+
+void removerElem(vector<int> &v, int index){
+    vector<int> result;
+    for (int i = 0; i < v.size(); ++i) {
+        if (i != index)
+            result.push_back(v[i]);
+    }
+}
+
+bool estaOrdenado(vector<int> v){
+    for(int i = 0; i < v.size() - 1; i++){
+        if(v[i] > v[i+1])
+            return false;
+    }
+    return true;
+}
+
+void bubbleSort(vector<int> &v){
+    while(not estaOrdenado(v)) {
+        for (int i = 0; i < v.size() - 1; i++) {
+            if (v[i] > v[i + 1]) {
+                int a = v[i];
+                v[i] = v[i + 1];
+                v[i + 1] = a;
+            }
+        }
+    }
+}
+// **********************************************************
+
+vector<int> masCercanoK(vector<int> v, int k,  int x){
+    if (v[0] > v[v.size()-1]) bubbleSort(v);
+    vector<int> diferenciasAbs, result;
+    for (int i = 0; i < v.size(); ++i) {        // O(n)
+        diferenciasAbs.push_back(diferenciaAbsoluta(v[i], x));
+    }
+
+    while(result.size() != k){
+        int indiceDelMinimo = 0, minimo = diferenciasAbs[0];
+        for (int i = 0; i < diferenciasAbs.size(); ++i) {
+            if (diferenciasAbs[i] < minimo && diferenciasAbs[i] > 0){
+                minimo = diferenciasAbs[i];
+                indiceDelMinimo = i;
+            }
+        }
+        result.push_back(v[indiceDelMinimo]);
+        diferenciasAbs[indiceDelMinimo] = 0;
+
+        int noHayMasNumeros = 0;
+        for (int i = 0; i < diferenciasAbs.size(); ++i) {   // para ver si no hay mas para tomar
+            noHayMasNumeros += diferenciasAbs[i];
+        }
+        if (noHayMasNumeros == 0) break;
+    }
+    bubbleSort(result);
+    return result;
 }

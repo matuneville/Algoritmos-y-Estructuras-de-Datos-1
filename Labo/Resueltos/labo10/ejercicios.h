@@ -13,3 +13,7 @@ int puntoFijo(vector<int> v);
 int encontrarRotado(vector<int> v, int x);
 int menorMasGrande(vector<int> v, int x);
 vector<int> masCercanoK(vector<int> v, int k,  int x);
+int diferenciaAbsoluta (int a, int b);
+void removerElem(vector<int> &v, int index);
+void bubbleSort(vector<int> &v);
+bool estaOrdenado(vector<int> v);
