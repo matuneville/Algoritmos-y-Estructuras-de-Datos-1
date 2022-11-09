@@ -7,23 +7,27 @@
 using namespace std;
 
 void ordenar(vector<int> &items){
-    for(int j = 1; j < items.size(); j++){
-        int min = items[j];
-        int i = j-1;
-
-        while(i >= 0 && items[i] > min){
-            items[i+1] = items[i];
-            i--;
+    vector<int> repeticiones;
+    int repe = 0;
+    for(int i = 1; i <= 150; i++){
+        for(int j = 0; j < items.size(); j++){
+            if(items[j] == i) repe++;
         }
-        items[i+1] = min;
+        repeticiones.push_back(repe);
+        repe=0;
     }
-
-    for(int i = 0; i < items.size() / 2; i++){
-        int temp = items[i];
-        items[i] = items[items.size()-1-i];
-        items[items.size()-1-i] = temp;
+    int k = items.size()-1;
+    int p = 0;
+    int n = 1;
+    while(k >= 0){
+        while(repeticiones[p] > 0 && p < repeticiones.size()){
+            items[k] = n;
+            repeticiones[p] -= 1;
+            k--;
+        }
+        p++;
+        n++;
     }
-
 }
 
 
