@@ -33,50 +33,11 @@ void selectionSort(vector< int > &arr){
     }
 }
 
-void countingSort(vector<int> &arr){
-    int maxNum = arr[0], minNum = arr[0];
-    for (int i = 0; i < arr.size(); ++i) {
-        if(arr[i] > maxNum)
-            maxNum = arr[i];
-        if(arr[i] < minNum)
-            minNum = arr[i];
-    }
-
-    vector<int> countArr;
-    vector<int> outputArr(arr.size(), 0);
-    for (int i = minNum; i <= maxNum; ++i) {
-        int countNum = 0;
-        for (int j : arr) {
-            if (i == j)
-                countNum++;
-        }
-        countArr.push_back(countNum);
-    }
-
-    for (int i = 1; i < countArr.size(); ++i) {
-        countArr[i] += countArr[i-1];
-    }
-
-    int i = 0, j = 0;
-    while (i < arr.size() && j < countArr.size()){
-        if(arr[i] == j){
-            outputArr[countArr[j]-1] = arr[i];
-            countArr[j]--;
-            j = 0;
-            i++;
-        }
-        else{
-            j++;
-        }
-    }
-
-    arr = outputArr;
-}
 
 
 void ordenar(vector<int> &items){
-    vector<int> v = {1,3,0,5,0,13,0,0,19,1,2};
-    countingSort(v);
+    vector<int> v = {9,13,5,3,7,1,11};
+    insertionSort(v);   // lo uso para testear mis sortings
 
     double t0 = clock();
     insertionSort(items);
