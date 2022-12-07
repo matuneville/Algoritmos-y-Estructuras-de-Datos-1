@@ -26,6 +26,7 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Entrega 1: [Consignas](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1/Consignas) y [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1)
 - Entrega 2: [Consignas](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega2/Consignas) y [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega2)
 - Entrega 3: [Consignas](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega3/Consignas) y [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega3)
+- Entrega 4: [Consignas](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega4/Consignas) y [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega4)
 
 ## Clases
 - Lógica: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo01.pdf) y [práctica](https://github.com/matuneville/uba-algo1/blob/main/Practicas/gu%C3%ADa1.pdf)
