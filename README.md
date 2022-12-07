@@ -37,7 +37,7 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Testing: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo07.pdf) y [práctica](https://github.com/matuneville/uba-algo1/blob/main/Practicas/guía6.pdf)
 - Search algorithms: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Te%C3%B3ricas/teo08.pdf)
 - Sorting algorithms: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Teóricas/teo09.pdf)
-- Algoritmos sobre secuencias ya ordenadas: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Teóricas/teo10.pdf)
 - Ciclos a partir de invariantes: [Práctica](https://github.com/matuneville/uba-algo1/blob/main/Practicas/guía7.pdf)
-
+- Algoritmos sobre secuencias ya ordenadas: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Teóricas/teo10.pdf), [práctica](https://campus.exactas.uba.ar/pluginfile.php/425597/mod_resource/content/13/p9.pdf) y [resuelto](https://github.com/matuneville/uba-algo1/blob/main/Practicas/Resuelto/practica9.md)
+- String Matching: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Teóricas/teo11.pdf)
 
