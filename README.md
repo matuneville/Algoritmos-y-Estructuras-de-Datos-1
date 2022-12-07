@@ -14,6 +14,8 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 - Matrices: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase7/Matrices.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo07-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo07)
 - Strings operations: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase8/Tuplas-String.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo08-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo08/src)
 - Complejidad computacional: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase9/complejidad.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo09-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo09)
+- Searching: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Te%C3%B3ricas%20de%20Labo/Clase10/Searching.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Consignas/labo10-ej.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo10)
+- Sorting: [Teórica](https://github.com/matuneville/uba-algo1/blob/main/Labo/Teóricas%20de%20Labo/Clase11/tallerSorting.pdf), [consignas](https://github.com/matuneville/uba-algo1/blob/main/Labo/Teóricas%20de%20Labo/Clase11/tallerSorting.pdf) y [resolución](https://github.com/matuneville/uba-algo1/tree/main/Labo/Resueltos/labo11)
 
 ## Trabajos Prácticos: Buscaminas
 *Linkeo los directorios del repo de los TPs*
