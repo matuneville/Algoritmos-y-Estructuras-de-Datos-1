@@ -19,8 +19,8 @@ Repo con teóricas, prácticas, resueltos de labo, entregas obligatorias y TPs
 
 ## Trabajos Prácticos: Buscaminas
 *Linkeo los directorios del repo de los TPs*
-- Trabajo Práctico de Especificación: [Consignas]() y [resolución]()
-- Trabajo Práctico de Implementación en C++: [Consignas]() y [resolución]()
+- Trabajo Práctico de Especificación: [en LaTeX](https://github.com/matuneville/uba-algo1-TPs/tree/main/TP1)
+- Trabajo Práctico de Implementación en C++: [link del folder](https://github.com/matuneville/uba-algo1-TPs/tree/main/TP2/ResolucionTP2/template-alumnos)
 
 ## Entregas de Labo
 - Entrega 1: [Consignas](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1/Consignas) y [Resolución](https://github.com/matuneville/uba-algo1/tree/main/Entregas/entrega1)
